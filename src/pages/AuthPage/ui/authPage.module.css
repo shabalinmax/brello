@@ -1,0 +1,108 @@
+.pageContainer {
+  height: 100%;
+}
+
+.imageContainer {
+  width: 100%;
+  height: 8vh;
+  background-image: url('../../../../public/authMobilePicture.svg');
+  background-size: cover;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logoType {
+  display: none;
+  margin-left: 10px;
+}
+
+.authMenu {
+  margin: 4vh 4vw 0;
+}
+
+.headerText {
+  margin-top: 2vh;
+}
+
+.logo {
+  max-width: 32px;
+}
+
+.form {
+  margin-top: 2vh;
+}
+
+.email {
+  padding-bottom: 6px;
+}
+
+.getStarted {
+  color: var(--Base-White);
+  padding: 10px 0;
+}
+
+.signContainer {
+  margin-top: 2vh;
+}
+
+.signUpByGoogle {
+  display: flex;
+  padding: 10px 0;
+
+  > span {
+    color: var(--Gray-700);
+    margin-left: 12px;
+  }
+}
+
+.footerContainer {
+  display: none;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .pageContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .headerText {
+    margin-top: 0;
+  }
+
+  .formContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 7vw;
+  }
+
+  .authMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin: 3.5vw 3.5vw 1vw 3.5vw;
+  }
+
+  .imageContainer {
+    background-image: url('../../../../public/authBigPicture.svg');
+    height: unset;
+    background-size: contain;
+    max-width: 50%;
+  }
+
+  .logoType {
+    display: block;
+  }
+
+  .footerContainer {
+    display: flex;
+  }
+}

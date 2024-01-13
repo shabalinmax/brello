@@ -1,8 +1,50 @@
 @import url("modern-normalize/modern-normalize.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
 :root {
-  --fons-sans: "Inter", "sans-serif"
+  --fons-sans: "Inter", "sans-serif";
+  --Gray-900: #101828;
+  --Gray-700: #344054;
+  --Gray-600: #475467;
+  --Gray-500: #667085;
+  --Gray-300: #D0D5DD;
+  --Base-White: #FFFFFF;
+  --Base-Black: #000;
+  --Primary-600: #155EEF;
 }
+
+.mdRegularText {
+  font-family: var(--fons-sans);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.xsSemiBoldText {
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.smMediumText {
+  font-family: var(--fons-sans);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.mdSemiboldText {
+  font-family: var(--fons-sans);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
 
 *,
 *::before,
@@ -38,6 +80,16 @@ button,
 textarea,
 select {
   font: inherit;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+input {
+  border: none;
+  outline: none;
 }
 
 p,
