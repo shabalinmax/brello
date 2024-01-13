@@ -1,0 +1,16 @@
+.button {
+  width: 100%;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.primary {
+  background-color: var(--Primary-600);
+}
+
+.secondary {
+  background-color: var(--Base-White);
+  border: 1px solid var(--Gray-300);
+}
