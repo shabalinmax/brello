@@ -8,7 +8,7 @@
   --Gray-600: #475467;
   --Gray-500: #667085;
   --Gray-300: #D0D5DD;
-  --Base-White: #FFFFFF;
+  --Base-White: #FFF;
   --Base-Black: #000;
   --Primary-600: #155EEF;
 }
@@ -22,7 +22,7 @@
 }
 
 .xsSemiBoldText {
-  font-family: Inter;
+  font-family: var(--fons-sans);
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
